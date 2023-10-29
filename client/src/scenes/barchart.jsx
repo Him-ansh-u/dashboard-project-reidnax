@@ -38,7 +38,7 @@ const BarComponent = () => {
         sx={{ p: "0px", mt: "-10px" }}
         height={300}
         dataset={data}
-        colors={[, "#343434", "#121211"]}
+        colors={["FF0000", "#9307CF", "#00f]}
         xAxis={[{ scaleType: "band", dataKey: "month" }]}
         series={
           selectedCompany !== "all"
